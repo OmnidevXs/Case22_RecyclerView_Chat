@@ -1,0 +1,2 @@
+rootProject.name = "Case22_RecyclerView_Chat"
+include ':app'
