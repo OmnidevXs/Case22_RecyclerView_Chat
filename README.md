@@ -1,10 +1,10 @@
 ![Apache-2.0](https://img.shields.io/badge/license-Apache-blue)  [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-# Case9Login_Room
+# Case22_RecyclerView_Chat
 
-Android Room Case
+Android Chat (RecyclerView) Case
 
-This basic case shows how Room working with Login/Register module.
+This basic case shows how RecyclerView working with Login/Register module.
 
 ```java
 UserDatabase userDb = UserDatabase.getDatabase(this);
