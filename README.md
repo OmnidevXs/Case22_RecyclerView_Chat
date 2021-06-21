@@ -4,23 +4,28 @@
 
 Android Chat (RecyclerView) Case
 
-This basic case shows how RecyclerView working with Login/Register module.
+This Chat App is actually extracted from a commercial project, which has been used by thousands of users.
 
 ```java
-UserDatabase userDb = UserDatabase.getDatabase(this);
-UserDao userDao = userDb.userDao();
-		
-User u2 = new User(username, password2, email, phonenum);
-userDao.add(u2);
-userDb.close();
+private class ViewHolderSend extends RecyclerView.ViewHolder {
+	TextView sendText;
+	ViewHolderSend(View itemView) {
+		super(itemView);
+		sendText = itemView.findViewById(R.id.right_msg);
+	}
+
+	void bind(DataChat message) {
+		sendText.setText(message.getContent());
+	}
+}
 ```
 
 Introduction
 ------------
 
-Room is the way in which one can store and retrieve small amounts of primitive data as key/value pairs to a file on the device storage such as String, int, float, Boolean that make up your preferences in an XML file inside the app on the device storage. 
+RecyclerView widget is a container for displaying large data sets that can be scrolled very efficiently by maintaining a limited number of views. Use the RecyclerView widget when you have data collections whose elements change at runtime based on user action or network events. RecyclerView decouples the positioning, animating items and various event handling into different classes.
 
-See the "Case8Login_SharedPreferences" case for a more complete usage and business scenario.
+RecyclerView with Multiple View Types in Java Android is by nature a perfect way to implement the chat App. In this case, 2 types of views (text message in and out) are considered.
 
 Pre-requisites
 --------------
@@ -44,10 +49,9 @@ Support
 
 1. GitHub: https://github.com/hypech/
 2. Stack Overflow: https://stackoverflow.com/story/hypech
-2. Facebook: 
 3. Twitter: https://twitter.com/hypechor
-4. Youtube
-5. Tiktok
+4. Youtube: https://www.youtube.com/channel/UCtkxCO5vVSvWMN-HMs0JZyg
+5. Tiktok: https://www.tiktok.com/@androidcase
 6. http://hypech.github.io
 7. http://hypech.com
 8. info@hypech.com
