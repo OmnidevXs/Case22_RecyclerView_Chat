@@ -47,16 +47,17 @@ Getting Started
 Support
 -------
 
-1. Hands-on App Development in Android Studio 4.2: https://www.amazon.com/Hands-Development-Android-Studio-Step-dp-B096TL8VMP/dp/B096TL8VMP/
-2. Preview of Hands-on App Development in Android Studio 4.2: https://play.google.com/books/reader?id=9g8zEAAAQBAJ
-3. GitHub: https://github.com/hypech/
-4. Stack Overflow: https://stackoverflow.com/story/hypech
-5. Twitter: https://twitter.com/hypechor
-6. Youtube: https://www.youtube.com/channel/UCtkxCO5vVSvWMN-HMs0JZyg
-7. Tiktok: https://www.tiktok.com/@androidcase
-8. http://hypech.github.io
-9. http://hypech.com
-10. info@hypech.com
+1. [Hands-on App Development in Android Studio 4.2](https://www.amazon.com/gp/product/B096TL8VMP) (22 Complete Android Cases with Step-by-Step Instruction to Grow from Novice to Android Expert)
+
+2. [Preview of Hands-on App Development in Android Studio 4.2](https://play.google.com/books/reader?id=9g8zEAAAQBAJ)
+4. GitHub: https://github.com/hypech/
+5. Stack Overflow: https://stackoverflow.com/story/hypech
+6. Twitter: https://twitter.com/hypechor
+7. Youtube: https://www.youtube.com/channel/UCtkxCO5vVSvWMN-HMs0JZyg
+8. Tiktok: https://www.tiktok.com/@androidcase
+9. http://hypech.github.io
+10. http://hypech.com
+11. info@hypech.com
 
 If you've found an error in this case, please file an issue on top left of this screen besides <>code.
 
