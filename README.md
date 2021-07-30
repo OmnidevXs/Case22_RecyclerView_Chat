@@ -20,33 +20,23 @@ private class ViewHolderSend extends RecyclerView.ViewHolder {
 }
 ```
 
-Introduction
-------------
-
+## Introduction
 RecyclerView widget is a container for displaying large data sets that can be scrolled very efficiently by maintaining a limited number of views. Use the RecyclerView widget when you have data collections whose elements change at runtime based on user action or network events. RecyclerView decouples the positioning, animating items and various event handling into different classes.
 
 RecyclerView with Multiple View Types in Java Android is by nature a perfect way to implement the chat App. In this case, 2 types of views (text message in and out) are considered.
 
-Pre-requisites
---------------
-
+## Pre-requisites
 - Android Studio 
 - SDK 23
 
-Screenshots
--------------
-
+## Screenshots
 <img src="screenshot.png" height="400" alt="Screenshot"/> 
 
-Getting Started
----------------
-
+## Getting Started
 * Android Studio: Download this case from github and open it directly in Android Studio.
 * Other IDE: This case uses the Gradle build system. To build this project, use the "gradlew build" command or use "Import Project".
 
-Support
--------
-
+## Support
 1. [Hands-on App Development in Android Studio 4.2](https://www.amazon.com/gp/product/B096TL8VMP) (22 Complete Android Cases with Step-by-Step Instruction to Grow from Novice to Android Expert)
 2. [Preview of Hands-on App Development in Android Studio 4.2](https://play.google.com/books/reader?id=9g8zEAAAQBAJ)
 3. Email: hypech.com@gmail.com
